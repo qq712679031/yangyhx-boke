@@ -72,7 +72,8 @@ const nav = [
                 text: 'kudu',
                 children: [
                     '/noSqlDatabase/kudu/README.md',
-                    '/noSqlDatabase/kudu/kuduUpgrade.md'
+                    '/noSqlDatabase/kudu/kuduUpgrade.md',
+                    '/noSqlDatabase/kudu/kuduAddData.md'
                 ],
             },
             {
