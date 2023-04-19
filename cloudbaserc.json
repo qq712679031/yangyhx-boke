@@ -1,0 +1,20 @@
+{
+    "envId": "yyh-book-6gmzi1yubaaa7ee1",
+    "version": "2.0",
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "functionRoot": "./functions",
+    "functions": [],
+    "region": "ap-shanghai",
+    "framework": {
+        "name": "yangyhx-boke",
+        "plugins": {
+            "vue": {
+                "use": "@cloudbase/framework-plugin-website",
+                "inputs": {
+                    "buildCommand": "vuepress build docs",
+                    "outputPath": "docs/.vuepress/dist"
+                }
+            }
+        }
+    }
+}

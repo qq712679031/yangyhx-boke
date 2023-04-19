@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-4135660a","path":"/MQ/kafka/kafka-python.html","title":"假设生产的消息为键值对（不是一定要键值对），且序列化方式为json","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1681872609000,"contributors":[{"name":"yangyunhuang","email":"yangyunhuang@zhugeio.com","commits":1}]},"filePathRelative":"MQ/kafka/kafka-python.md"}');export{a as data};

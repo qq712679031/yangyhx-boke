@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-3a184b8c","path":"/noSqlDatabase/impala/impalaCase.html","title":"impala case","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1677563292000,"contributors":[{"name":"yangyunhuang","email":"yangyunhuang@zhugeio.com","commits":1}]},"filePathRelative":"noSqlDatabase/impala/impalaCase.md"}');export{a as data};

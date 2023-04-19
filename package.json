@@ -1,0 +1,19 @@
+{
+  "name": "yangyhx-boke",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vuepress/theme-default": "^2.0.0-beta.61",
+    "vuepress": "^2.0.0-beta.61"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "main": "index.js",
+  "author": "yangyunhuang <yangyunhuang@zhugeio.com>",
+  "license": "MIT"
+}

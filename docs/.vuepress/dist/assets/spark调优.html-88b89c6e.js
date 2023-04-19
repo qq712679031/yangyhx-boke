@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as r,R as e,t as s}from"./framework-5866ffd3.js";const c={},_=e("h2",{id:"启动类调优",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#启动类调优","aria-hidden":"true"},"#"),s(" 启动类调优")],-1),o=[_];function n(d,i){return a(),r("div",null,o)}const l=t(c,[["render",n],["__file","spark调优.html.vue"]]);export{l as default};
