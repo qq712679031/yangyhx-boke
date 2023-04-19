@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-93b934de","path":"/architecture/kappa.html","title":"kappa架构","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"kappa架构","description":"kappa架构"},"headers":[],"git":{"updatedTime":1677563292000,"contributors":[{"name":"yangyunhuang","email":"yangyunhuang@zhugeio.com","commits":1}]},"filePathRelative":"architecture/kappa.md"}');export{a as data};

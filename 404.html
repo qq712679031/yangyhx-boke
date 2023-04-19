@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>大数据知识点集锦</title><meta name="description" content="闻道有先后，术业有专攻">
+    <link rel="preload" href="/assets/style-d2355f92.css" as="style"><link rel="stylesheet" href="/assets/style-d2355f92.css">
+    <link rel="modulepreload" href="/assets/app-93b6bbda.js"><link rel="modulepreload" href="/assets/framework-5866ffd3.js"><link rel="modulepreload" href="/assets/404.html-f9875e7b.js"><link rel="modulepreload" href="/assets/404.html-87d54bd8.js"><link rel="prefetch" href="/assets/index.html-3bb7a6d3.js" as="script"><link rel="prefetch" href="/assets/kappa.html-620bd117.js" as="script"><link rel="prefetch" href="/assets/lambda.html-3efc2f95.js" as="script"><link rel="prefetch" href="/assets/index.html-c1f52509.js" as="script"><link rel="prefetch" href="/assets/index.html-c254903c.js" as="script"><link rel="prefetch" href="/assets/index.html-e6f13342.js" as="script"><link rel="prefetch" href="/assets/kafka-python.html-cb53b06f.js" as="script"><link rel="prefetch" href="/assets/kafka.html-91af4cca.js" as="script"><link rel="prefetch" href="/assets/kafkaCommand.html-2fc4138b.js" as="script"><link rel="prefetch" href="/assets/3小时入门Spark之Graphx.html-71b7f88a.js" as="script"><link rel="prefetch" href="/assets/SparkGraphX.html-150f8024.js" as="script"><link rel="prefetch" href="/assets/sparksql.html-d67b37a1.js" as="script"><link rel="prefetch" href="/assets/spark调优.html-254cde70.js" as="script"><link rel="prefetch" href="/assets/distcp.html-78b97a3f.js" as="script"><link rel="prefetch" href="/assets/hdfsShell.html-edd66f6d.js" as="script"><link rel="prefetch" href="/assets/command.html-f85ff454.js" as="script"><link rel="prefetch" href="/assets/JVM.html-2947961d.js" as="script"><link rel="prefetch" href="/assets/异常日志.html-1cceebbf.js" as="script"><link rel="prefetch" href="/assets/command.html-95153f5e.js" as="script"><link rel="prefetch" href="/assets/index.html-4d7d5f9d.js" as="script"><link rel="prefetch" href="/assets/index.html-a7137fc2.js" as="script"><link rel="prefetch" href="/assets/impalaCase.html-d6f45515.js" as="script"><link rel="prefetch" href="/assets/impalaSql.html-7abb5805.js" as="script"><link rel="prefetch" href="/assets/index.html-532d30e0.js" as="script"><link rel="prefetch" href="/assets/kuduAddData.html-4dfb4fe4.js" as="script"><link rel="prefetch" href="/assets/kuduUpgrade.html-d228b68f.js" as="script"><link rel="prefetch" href="/assets/redisAOF.html-c047ef7c.js" as="script"><link rel="prefetch" href="/assets/redisShake.html-e064b1e8.js" as="script"><link rel="prefetch" href="/assets/ssdbToredis.html-1f25a8a7.js" as="script"><link rel="prefetch" href="/assets/mysqlDump.html-9bcfac94.js" as="script"><link rel="prefetch" href="/assets/kafkaSaslPlain.html-50c060e9.js" as="script"><link rel="prefetch" href="/assets/index.html-b0b5fe6a.js" as="script"><link rel="prefetch" href="/assets/kappa.html-20723cb3.js" as="script"><link rel="prefetch" href="/assets/lambda.html-fc30136f.js" as="script"><link rel="prefetch" href="/assets/index.html-9964aeb8.js" as="script"><link rel="prefetch" href="/assets/index.html-38bb4a39.js" as="script"><link rel="prefetch" href="/assets/index.html-67fc1eff.js" as="script"><link rel="prefetch" href="/assets/kafka-python.html-d0f1ed31.js" as="script"><link rel="prefetch" href="/assets/kafka.html-833d0952.js" as="script"><link rel="prefetch" href="/assets/kafkaCommand.html-6a29fbfb.js" as="script"><link rel="prefetch" href="/assets/3小时入门Spark之Graphx.html-b7aa1db4.js" as="script"><link rel="prefetch" href="/assets/SparkGraphX.html-feb219a2.js" as="script"><link rel="prefetch" href="/assets/sparksql.html-163e3fc4.js" as="script"><link rel="prefetch" href="/assets/spark调优.html-88b89c6e.js" as="script"><link rel="prefetch" href="/assets/distcp.html-bf1e35e0.js" as="script"><link rel="prefetch" href="/assets/hdfsShell.html-1f95a026.js" as="script"><link rel="prefetch" href="/assets/command.html-986ab2d4.js" as="script"><link rel="prefetch" href="/assets/JVM.html-256953c2.js" as="script"><link rel="prefetch" href="/assets/异常日志.html-06b858e2.js" as="script"><link rel="prefetch" href="/assets/command.html-98e84c97.js" as="script"><link rel="prefetch" href="/assets/index.html-e6ee89ac.js" as="script"><link rel="prefetch" href="/assets/index.html-1b569db4.js" as="script"><link rel="prefetch" href="/assets/impalaCase.html-a33320da.js" as="script"><link rel="prefetch" href="/assets/impalaSql.html-8ec4d304.js" as="script"><link rel="prefetch" href="/assets/index.html-3a0eebd1.js" as="script"><link rel="prefetch" href="/assets/kuduAddData.html-c815a7bc.js" as="script"><link rel="prefetch" href="/assets/kuduUpgrade.html-c3c356d8.js" as="script"><link rel="prefetch" href="/assets/redisAOF.html-b1886cbe.js" as="script"><link rel="prefetch" href="/assets/redisShake.html-d6a65358.js" as="script"><link rel="prefetch" href="/assets/ssdbToredis.html-9cb11f64.js" as="script"><link rel="prefetch" href="/assets/mysqlDump.html-c58e9c65.js" as="script"><link rel="prefetch" href="/assets/kafkaSaslPlain.html-af3d2c64.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>Looks like we&#39;ve got some broken links.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-93b6bbda.js" defer></script>
+  </body>
+</html>
